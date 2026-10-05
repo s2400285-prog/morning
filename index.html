@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Morning, Julie ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <audio id="bgMusic" loop preload="auto">
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div id="musicNotice" class="music-notice">
+      🎵 Tap anywhere to start the music 🎵
+    </div>
+
+    <div class="kitty-decoration kitty-one">🎀</div>
+    <div class="kitty-decoration kitty-two">💗</div>
+    <div class="kitty-decoration kitty-three">🌸</div>
+
+    <main class="container">
+      <div class="hello-kitty">
+        <div class="ear left-ear"></div>
+        <div class="ear right-ear"></div>
+
+        <div class="kitty-face">
+          <div class="eye left-eye"></div>
+          <div class="eye right-eye"></div>
+          <div class="nose"></div>
+
+          <div class="whisker w1"></div>
+          <div class="whisker w2"></div>
+          <div class="whisker w3"></div>
+          <div class="whisker w4"></div>
+
+          <div class="bow">
+            <span></span>
+            <span></span>
+            <b></b>
+          </div>
+        </div>
+      </div>
+
+      <h1>Good Morning, Julie! 🌷</h1>
+
+      <p class="subtitle">A little love letter made especially for you. 💌</p>
+
+      <button id="musicButton" class="music-button" onclick="toggleMusic()">
+        🎵 Music: OFF
+      </button>
+
+      <section class="letter">
+        <div class="letter-top">💗 To my special girl, Julie 💗</div>
+
+        <p>Good morning, Julie. ☀️❤️</p>
+
+        <p>
+          I hope you woke up feeling peaceful and happy today. Before you start
+          your morning, I wanted to leave you something small but meaningful.
+        </p>
+
+        <p>
+          I want you to know that I love you so much. ❤️ Sometimes I may not
+          have the perfect words to explain how I feel, but my feelings for you
+          are genuine and sincere.
+        </p>
+
+        <p>
+          You are someone I care about deeply. Your happiness matters to me,
+          your health matters to me, your dreams matter to me, and even the
+          little things about your day matter to me.
+        </p>
+
+        <p>
+          I hope today gives you many reasons to smile. I hope you meet kind
+          people, experience good moments, and have the strength to handle
+          anything that comes your way.
+        </p>
+
+        <p>
+          And please don't forget to take care of yourself. Eat properly, drink
+          water, rest when you're tired, and don't be too hard on yourself.
+        </p>
+
+        <p>
+          You deserve kindness, peace, happiness, and love. And I hope I can
+          always be someone who adds a little happiness to your day.
+        </p>
+
+        <div class="pink-line">♡ ♡ ♡</div>
+
+        <h2>🎀 A Morning Prayer For You</h2>
+
+        <p>
+          This morning, I pray that God watches over you wherever you go. May He
+          protect you from anything that may hurt you and guide you toward the
+          things that are good for you.
+        </p>
+
+        <p>
+          May God give you strength when you're tired, wisdom when you're
+          confused, peace when you're worried, and courage when something feels
+          difficult.
+        </p>
+
+        <div class="verse-card">
+          <div class="verse-icon">📖</div>
+
+          <p class="verse">
+            “This is the day the Lord has made; let us rejoice and be glad in
+            it.”
+          </p>
+
+          <p class="reference">— Psalm 118:24</p>
+        </div>
+
+        <button class="cute-button" onclick="openMessage('verse')">
+          📖 Open Another Bible Verse
+        </button>
+
+        <div id="verse" class="hidden-box">
+          <p class="verse">
+            “The Lord bless you and keep you; the Lord make his face shine on
+            you and be gracious to you.”
+          </p>
+
+          <p class="reference">— Numbers 6:24-25</p>
+        </div>
+
+        <button class="cute-button" onclick="openMessage('love')">
+          💗 Click Here, Julie
+        </button>
+
+        <div id="love" class="hidden-box">
+          <h3>Hehe... you clicked it. 🥹❤️</h3>
+
+          <p>I hope you're smiling right now.</p>
+
+          <p>
+            If you are, then I'm already happy because one of the things I love
+            most is knowing that you're happy.
+          </p>
+
+          <p class="special">I LOVE YOU SO MUCH, JULIE. ❤️</p>
+        </div>
+
+        <button class="cute-button" onclick="openMessage('wish')">
+          🌸 My Wish For You Today
+        </button>
+
+        <div id="wish" class="hidden-box">
+          <h3>My Wish For You 🌷</h3>
+
+          <p>
+            May your morning be peaceful, your afternoon be productive, and your
+            evening be relaxing.
+          </p>
+
+          <p>
+            May you have good health, success in everything you do, genuine
+            happiness, and people around you who truly care about you.
+          </p>
+        </div>
+
+        <button class="cute-button" onclick="openMessage('secret')">
+          💌 Open My Little Secret
+        </button>
+
+        <div id="secret" class="hidden-box secret-box">
+          <p>There is someone who woke up thinking about you...</p>
+
+          <p>Someone who wants to see you smile...</p>
+
+          <p>Someone who prays for your happiness...</p>
+
+          <p>Someone who wants to continue knowing you...</p>
+
+          <p>Someone who loves you very much...</p>
+
+          <p class="big-text">That someone is me. ❤️</p>
+        </div>
+
+        <div class="pink-line">♡ ♡ ♡</div>
+
+        <h2>☀️ Before You Go...</h2>
+
+        <p>
+          Whatever happens today, please remember that you are special. Don't
+          let one bad moment make you think your whole day is bad.
+        </p>
+
+        <p>
+          Keep your beautiful smile. Keep believing in yourself. Keep chasing
+          your dreams. And keep trusting God's plan for you.
+        </p>
+
+        <p class="big-love">Good morning, my beautiful Julie. ❤️</p>
+
+        <p>
+          I love you so much. May God bless you today, tomorrow, and always.
+          🙏🏻🌷
+        </p>
+
+        <div class="signature">
+          With lots of love,<br />
+          <strong>James ❤️</strong>
+        </div>
+      </section>
+
+      <div class="bottom-message">Made with love especially for Julie 🎀❤️</div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
